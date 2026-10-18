@@ -1,0 +1,51 @@
+// Bilingual UI strings: Urdu (default, RTL) + English.
+export type Lang = "ur" | "en";
+
+export const STR: Record<Lang, Record<string, string>> = {
+  ur: {
+    siteName: "اسلامی کاؤنٹ ڈاؤن",
+    tagline: "رمضان، عیدین، حج اور تمام اسلامی تہوار — کتنے دن باقی؟ لائیو کاؤنٹ ڈاؤن",
+    days: "دن",
+    hours: "گھنٹے",
+    minutes: "منٹ",
+    seconds: "سیکنڈ",
+    daysLeft: "دن باقی",
+    upcomingEvents: "آنے والے اسلامی ایام",
+    viewAll: "تفصیل دیکھیں",
+    disclaimer:
+      "تمام تاریخیں متوقع ہیں (ام القری کیلنڈر کی بنیاد پر) — چاند نظر آنے پر ایک دن کا فرق ہو سکتا ہے۔",
+    faqTitle: "اکثر پوچھے جانے والے سوالات",
+    aboutTitle: "اس دن کے بارے میں",
+    shareText: "شیئر کریں",
+    home: "ہوم",
+    liveNow: "ابھی جاری ہے",
+    endedOn: "مکمل ہوا",
+    hijriDate: "ہجری تاریخ",
+    expectedDate: "متوقع تاریخ",
+    otherEvents: "دیگر اسلامی ایام",
+    adSlot: "اشتہار",
+  },
+  en: {
+    siteName: "Islamic Countdown",
+    tagline: "Ramadan, both Eids, Hajj and every Islamic occasion — how many days left? Live countdowns",
+    days: "Days",
+    hours: "Hours",
+    minutes: "Minutes",
+    seconds: "Seconds",
+    daysLeft: "days left",
+    upcomingEvents: "Upcoming Islamic occasions",
+    viewAll: "View details",
+    disclaimer:
+      "All dates are expected (Umm al-Qura based) — the actual date may shift by a day with the moon sighting.",
+    faqTitle: "Frequently asked questions",
+    aboutTitle: "About this occasion",
+    shareText: "Share",
+    home: "Home",
+    liveNow: "Happening now",
+    endedOn: "Completed",
+    hijriDate: "Hijri date",
+    expectedDate: "Expected date",
+    otherEvents: "Other Islamic occasions",
+    adSlot: "Advertisement",
+  },
+};

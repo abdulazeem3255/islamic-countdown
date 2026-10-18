@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #022c22;
+  font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", system-ui, sans-serif;
+}
+
+/* Keep countdown digits LTR even in RTL */
+.tabular-nums {
+  direction: ltr;
+  unicode-bidi: embed;
+}
