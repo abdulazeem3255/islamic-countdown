@@ -1,5 +1,7 @@
 // Islamic events with expected Gregorian dates (Umm al-Qura based).
 // Actual dates depend on moon sighting and may shift by a day.
+// Dates verified 2026-10-18 against Umm al-Qura tables (ayyamtools, hijri-calendars);
+// South Asian moon-sighting announcements (e.g. Pakistan) may land 1 day later.
 
 export interface EventFaq {
   q: string;
@@ -27,17 +29,17 @@ export const EVENTS: IslamicEvent[] = [
     nameUr: "شب معراج",
     hijriEn: "27 Rajab",
     hijriUr: "27 رجب",
-    dates: ["2027-01-06", "2027-12-26"],
+    dates: ["2027-01-05", "2027-12-26"],
     blurbEn:
       "Shab-e-Miraj marks the Prophet Muhammad's ﷺ miraculous night journey from Makkah to Jerusalem and ascension to the heavens. Muslims observe it with night prayers, dua and remembrance.",
     blurbUr:
       "شب معراج وہ بابرکت رات ہے جس میں نبی کریم ﷺ کو معراج کا شرف حاصل ہوا۔ مسلمان اس رات نوافل، دعا اور ذکر و اذکار کا اہتمام کرتے ہیں۔",
     faqsEn: [
-      { q: "When is Shab-e-Miraj 2027?", a: "Shab-e-Miraj is expected on the night of 27 Rajab, around 6 January 2027 (subject to moon sighting)." },
+      { q: "When is Shab-e-Miraj 2027?", a: "Shab-e-Miraj is expected on the night of 27 Rajab, around 5 January 2027 (subject to moon sighting)." },
       { q: "What happened on Shab-e-Miraj?", a: "The Prophet Muhammad ﷺ was taken on the night journey (Isra) from Makkah to Al-Aqsa and then ascended (Miraj) through the heavens, where the five daily prayers were ordained." },
     ],
     faqsUr: [
-      { q: "شب معراج 2027 کب ہے؟", a: "شب معراج 27 رجب کی رات متوقع ہے، تقریباً 6 جنوری 2027 (چاند نظر آنے پر منحصر)۔" },
+      { q: "شب معراج 2027 کب ہے؟", a: "شب معراج 27 رجب کی رات متوقع ہے، تقریباً 5 جنوری 2027 (چاند نظر آنے پر منحصر)۔" },
       { q: "شب معراج میں کیا ہوا تھا؟", a: "نبی کریم ﷺ کو مسجد حرام سے مسجد اقصیٰ تک سیر کرائی گئی اور پھر آسمانوں کی سیر (معراج) ہوئی، جہاں پانچ وقت کی نماز فرض ہوئی۔" },
     ],
   },
@@ -109,17 +111,17 @@ export const EVENTS: IslamicEvent[] = [
     nameUr: "عید الفطر",
     hijriEn: "1 Shawwal",
     hijriUr: "1 شوال",
-    dates: ["2027-03-10", "2028-02-27"],
+    dates: ["2027-03-09", "2028-02-27"],
     blurbEn:
       "Eid al-Fitr, the Festival of Breaking the Fast, celebrates the end of Ramadan with the Eid prayer, festive meals and giving Zakat al-Fitr so the poor can celebrate too.",
     blurbUr:
       "عید الفطر رمضان کے اختتام پر منائی جاتی ہے — نماز عید، خوشیوں بھرے کھانے اور زکوٰۃ الفطر کی ادائیگی تاکہ غریب بھی عید منا سکیں۔",
     faqsEn: [
-      { q: "When is Eid al-Fitr 2027?", a: "Eid al-Fitr is expected on 10 March 2027, on the 1st of Shawwal after Ramadan (subject to moon sighting)." },
+      { q: "When is Eid al-Fitr 2027?", a: "Eid al-Fitr is expected on 9 March 2027, on the 1st of Shawwal after Ramadan (subject to moon sighting)." },
       { q: "What is Zakat al-Fitr?", a: "An obligatory charity paid per person before the Eid prayer, so that the poor can also celebrate Eid." },
     ],
     faqsUr: [
-      { q: "عید الفطر 2027 کب ہے؟", a: "عید الفطر متوقع طور پر 10 مارچ 2027 کو ہوگی، یکم شوال کو (چاند نظر آنے پر منحصر)۔" },
+      { q: "عید الفطر 2027 کب ہے؟", a: "عید الفطر متوقع طور پر 9 مارچ 2027 کو ہوگی، یکم شوال کو (چاند نظر آنے پر منحصر)۔" },
       { q: "زکوٰۃ الفطر کیا ہے؟", a: "نماز عید سے پہلے ہر فرد کی طرف سے واجب صدقہ، تاکہ غریب بھی عید منا سکیں۔" },
     ],
   },
@@ -189,17 +191,17 @@ export const EVENTS: IslamicEvent[] = [
     nameUr: "اسلامی نیا سال",
     hijriEn: "1 Muharram",
     hijriUr: "1 محرم",
-    dates: ["2027-06-16", "2028-06-05"],
+    dates: ["2027-06-06", "2028-05-26"],
     blurbEn:
       "The Islamic New Year begins on 1 Muharram, marking the Hijrah — the Prophet's ﷺ migration from Makkah to Madinah, from which the Hijri calendar is counted.",
     blurbUr:
       "اسلامی نیا سال یکم محرم سے شروع ہوتا ہے، جو ہجرت نبوی ﷺ کی یاد دلاتا ہے — اسی واقعے سے ہجری کیلنڈر کا آغاز ہوا۔",
     faqsEn: [
-      { q: "When is the Islamic New Year 1449?", a: "1 Muharram 1449 is expected on 16 June 2027 (subject to moon sighting)." },
+      { q: "When is the Islamic New Year 1449?", a: "1 Muharram 1449 is expected on 6 June 2027 (subject to moon sighting)." },
       { q: "Why is it called the Hijri calendar?", a: "It counts years from the Hijrah, the Prophet Muhammad's ﷺ migration from Makkah to Madinah in 622 CE." },
     ],
     faqsUr: [
-      { q: "اسلامی نیا سال 1449 کب شروع ہوگا؟", a: "یکم محرم 1449 متوقع طور پر 16 جون 2027 کو ہوگا۔" },
+      { q: "اسلامی نیا سال 1449 کب شروع ہوگا؟", a: "یکم محرم 1449 متوقع طور پر 6 جون 2027 کو ہوگا۔" },
       { q: "اسے ہجری کیلنڈر کیوں کہتے ہیں؟", a: "یہ ہجرت نبوی ﷺ — مکہ سے مدینہ منتقلی — سے سال گنتا ہے۔" },
     ],
   },
@@ -209,17 +211,17 @@ export const EVENTS: IslamicEvent[] = [
     nameUr: "عاشورہ",
     hijriEn: "10 Muharram",
     hijriUr: "10 محرم",
-    dates: ["2027-06-25", "2028-06-14"],
+    dates: ["2027-06-15", "2028-06-04"],
     blurbEn:
       "Ashura, the 10th of Muharram, is a day of fasting — the Prophet ﷺ fasted it and encouraged fasting the 9th or 11th alongside it. It also marks the martyrdom of Imam Hussain at Karbala.",
     blurbUr:
       "عاشورہ 10 محرم کا دن ہے — نبی کریم ﷺ نے اس کا روزہ رکھا اور 9 یا 11 محرم کا روزہ بھی ساتھ رکھنے کی ترغیب دی۔ یہی دن واقعہ کربلا میں امام حسین کی شہادت کا دن بھی ہے۔",
     faqsEn: [
-      { q: "When is Ashura 2027?", a: "Ashura (10 Muharram 1449) is expected on 25 June 2027." },
+      { q: "When is Ashura 2027?", a: "Ashura (10 Muharram 1449) is expected on 15 June 2027." },
       { q: "Should I fast on Ashura?", a: "Yes — fasting Ashura expiates the sins of the previous year, ideally with the 9th or 11th of Muharram." },
     ],
     faqsUr: [
-      { q: "عاشورہ 2027 کب ہے؟", a: "عاشورہ (10 محرم 1449) متوقع طور پر 25 جون 2027 کو ہوگا۔" },
+      { q: "عاشورہ 2027 کب ہے؟", a: "عاشورہ (10 محرم 1449) متوقع طور پر 15 جون 2027 کو ہوگا۔" },
       { q: "کیا عاشورے کا روزہ رکھنا چاہیے؟", a: "جی ہاں — عاشورے کا روزہ پچھلے سال کے گناہوں کا کفارہ ہے، بہتر ہے 9 یا 11 محرم کا روزہ بھی ساتھ رکھیں۔" },
     ],
   },
@@ -229,17 +231,17 @@ export const EVENTS: IslamicEvent[] = [
     nameUr: "عید میلاد النبی ﷺ",
     hijriEn: "12 Rabi al-Awwal",
     hijriUr: "12 ربیع الاول",
-    dates: ["2027-08-25", "2028-08-14"],
+    dates: ["2027-08-15", "2028-08-04"],
     blurbEn:
       "Mawlid al-Nabi marks the birth of the Prophet Muhammad ﷺ on 12 Rabi al-Awwal. It is observed with gatherings of durood, seerah talks and charity.",
     blurbUr:
       "عید میلاد النبی ﷺ 12 ربیع الاول کو نبی کریم ﷺ کی ولادت کی خوشی میں منائی جاتی ہے — درود و سلام کی محافل، سیرت کے بیانات اور صدقہ و خیرات کے ساتھ۔",
     faqsEn: [
-      { q: "When is Mawlid 2027?", a: "12 Rabi al-Awwal 1449 is expected on 25 August 2027 (subject to moon sighting)." },
+      { q: "When is Mawlid 2027?", a: "12 Rabi al-Awwal 1449 is expected on 15 August 2027 (subject to moon sighting)." },
       { q: "How is Mawlid observed?", a: "With durood gatherings, talks on the Prophet's ﷺ life, charity and festive lights in many Muslim countries." },
     ],
     faqsUr: [
-      { q: "عید میلاد النبی 2027 کب ہے؟", a: "12 ربیع الاول 1449 متوقع طور پر 25 اگست 2027 کو ہوگی۔" },
+      { q: "عید میلاد النبی 2027 کب ہے؟", a: "12 ربیع الاول 1449 متوقع طور پر 15 اگست 2027 کو ہوگی۔" },
       { q: "میلاد کیسے منایا جاتا ہے؟", a: "درود و سلام کی محافل، سیرت النبی ﷺ کے بیانات، صدقہ و خیرات اور چراغاں کے ساتھ۔" },
     ],
   },
