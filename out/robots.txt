@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://abdulazeem3255.github.io/islamic-countdown/sitemap.xml

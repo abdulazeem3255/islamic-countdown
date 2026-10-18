@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import EventClient from "../../components/EventClient";
 import { EVENTS, getEvent, nextOccurrence } from "../../lib/events";
 
-const SITE_URL = "https://islamic-countdown.vercel.app";
+const SITE_URL = "https://abdulazeem3255.github.io/islamic-countdown";
 
 export function generateStaticParams() {
   return EVENTS.map((e) => ({ slug: e.slug }));

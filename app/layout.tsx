@@ -3,7 +3,7 @@ import "./globals.css";
 import { LangProvider } from "../components/LangContext";
 import SiteShell from "../components/SiteShell";
 
-const SITE_URL = "https://islamic-countdown.vercel.app";
+const SITE_URL = "https://abdulazeem3255.github.io/islamic-countdown";
 
 export const metadata: Metadata = {
   title: "Islamic Countdown — اسلامی کاؤنٹ ڈاؤن | Ramadan, Eid, Hajj Countdown 2027",
