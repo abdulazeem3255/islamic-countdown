@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { EVENTS } from "../lib/events";
 
-const SITE_URL = "https://abdulazeem3255.github.io/islamic-countdown";
+const SITE_URL = "https://islamic-countdown.pages.dev";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString().split("T")[0];

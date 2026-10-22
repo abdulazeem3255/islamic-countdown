@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { LangProvider } from "../components/LangContext";
 import SiteShell from "../components/SiteShell";
+import Script from "next/script";
 
-const SITE_URL = "https://abdulazeem3255.github.io/islamic-countdown";
+const SITE_URL = "https://islamic-countdown.pages.dev";
 
 export const metadata: Metadata = {
   title: "Islamic Countdown — اسلامی کاؤنٹ ڈاؤن | Ramadan, Eid, Hajj Countdown 2027",
@@ -42,6 +43,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ur" dir="rtl">
       <body>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-7D5NRM03J3"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-7D5NRM03J3');
+          `}
+        </Script>
         <LangProvider>
           <SiteShell>{children}</SiteShell>
         </LangProvider>
