@@ -60,8 +60,6 @@ export default function EventClient({ event }: { event: IslamicEvent }) {
         )}
       </section>
 
-      <div data-ad-slot="event-mid" className="hidden" aria-hidden />
-
       <section className="rounded-xl bg-emerald-900/60 border border-emerald-700/60 p-6 mb-6">
         <h2 className="text-xl font-bold text-amber-300 mb-3">{t.aboutTitle}</h2>
         <p className="text-emerald-50/90 leading-relaxed">

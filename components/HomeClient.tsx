@@ -57,9 +57,6 @@ export default function HomeClient() {
         </section>
       )}
 
-      {/* Ad placeholder (renders nothing until AdSense enabled) */}
-      <div data-ad-slot="home-top" className="hidden" aria-hidden />
-
       {/* All upcoming events */}
       <h2 className="text-xl sm:text-2xl font-bold text-amber-300 mb-4">{t.upcomingEvents}</h2>
       <div className="grid gap-4 sm:grid-cols-2">
